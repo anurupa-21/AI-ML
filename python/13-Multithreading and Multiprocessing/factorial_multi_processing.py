@@ -19,9 +19,9 @@ sys.set_int_max_str_digits(100000)
 ## function to compute factorials of a given number 
 
 def computer_factorial(number):
-    print(f"Computing factorial of {number}")
+    print(f"Computing factorial of {number}\n")
     result=math.factorial(number)
-    print(f"Factorial of {number} is {result}")
+    print(f"Factorial of {number} is {result}\n")
     return result
 
 if __name__=="__main__":
