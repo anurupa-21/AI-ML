@@ -7,4 +7,4 @@ seaborn
 bs4
 requests
 flask
-
+streamlit
