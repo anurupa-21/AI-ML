@@ -1,0 +1,11 @@
+use employee_details;
+select * from Employees;
+insert into Employees (EmployeeID,FirstName,LastName,Department,Salary,HireDate) values
+(6,'Raj','Ambani','IT',67000,'2023-04-20')
+
+insert into Employees(EmployeeID,FirstName,LastName) values
+(7,'Rohit','Mehera')
+
+insert into Employees values(8,'Mahesh','Narang','HR',73000,'2024-01-21')
+
+select * from INFORMATION_SCHEMA.COLUMNS where TABLE_NAME='Employees';
